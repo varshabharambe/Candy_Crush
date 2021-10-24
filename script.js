@@ -271,7 +271,7 @@ function loader(){
   }
 
   function FadeOut(){
-    setInterval(loader,300);
+    setInterval(loader,3000);
   }
 
 
