@@ -87,6 +87,8 @@ document.addEventListener('DOMContentLoaded', () =>{
         }
     }
 
+    
+    //moving candies down
 
     function moveDown(){
         for(let i=0;i<=55;i++){
