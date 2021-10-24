@@ -1,0 +1,107 @@
+body{
+    background-image: url('./images/candy-crush-background.png');
+    display: flex;
+}
+
+
+
+.grid{
+    height: 560px;
+    width: 560px;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: rgba(109, 127, 151, 0.5);
+    margin-top: 50px;
+    padding:5px;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5) inset, 0 1px 0 #fff;
+    color: #85796b;    
+}
+
+.grid div{
+    height: 70px;
+    width: 70px;    
+}
+
+.score-board{
+    box-sizing: border-box;
+    background-color: pink;
+    border-radius: 10px;
+    margin-top: 100px;
+    margin-left: 10%;
+    margin-bottom: 350px;
+    min-width: 10%;
+    align-items: center;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5) inset, 0 1px 0 #fff;
+    color: #85796b;
+    
+}
+
+h1,h2{
+    font-family: "Montserrat", sans-serif;
+    text-transform: uppercase;
+    font-size: 160%;
+    
+}
+
+img{
+    border-radius: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5) inset, 0 1px 0 #fff;
+    margin-top: 80px;
+}
+
+.section1{
+    margin-left: 10%;
+}
+
+.section2{
+    display: flex;
+    flex-direction: column;
+    margin-left: 10%;
+}
+
+.copyright{
+    margin-top: 40px;
+    padding: 10px;
+    text-align: center;
+    box-sizing: border-box;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5) inset, 0 1px 0 #fff;
+    font-family: "Montserrat", sans-serif;
+    color:  #038503;
+    font-weight: 500;
+   
+
+}
+
+.loader-container{
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    z-index: 10000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    background-size: cover;
+}
+
+.loader-container img{
+    width: 100%;
+}
+
+.loader-container.fade-out{
+    top:110%;
+    opacity: 0;
+}
+
+
+
+
